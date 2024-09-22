@@ -1,0 +1,15 @@
+@use '../config/variaveis';
+
+.product-button {
+    display: block;
+    background-color: variaveis.$colorButton;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 8px;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: variaveis.$colorBtnHover;
+    }
+}

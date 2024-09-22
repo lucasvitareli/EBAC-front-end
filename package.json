@@ -1,0 +1,16 @@
+{
+  "name": "sass-ecercicio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css",
+    "sass:watch": "sass --watch source/main.scss:build/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.79.3"
+  }
+}

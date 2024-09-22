@@ -1,0 +1,40 @@
+@use 'config/reset';
+@use 'config/variaveis';
+@use 'componentes/header';
+@use 'componentes/menu';
+@use 'componentes/listProducts';
+@use 'componentes/buttons';
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 56px 0;
+}
+
+@media screen and (max-width: variaveis.$smartPhone) {
+    .products {
+        display: block;
+    }
+
+    .product-item {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: variaveis.$tablet) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        gap: 3%;
+    }
+}

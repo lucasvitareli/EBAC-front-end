@@ -1,0 +1,16 @@
+@use '../config/variaveis';
+
+.menu {
+    display: flex;
+    
+    & li {
+        font-weight: bold;
+        margin-left: 24px;
+
+        & a {
+            text-decoration: none;
+            color: variaveis.$colorLinkMenu;
+        }
+
+    }
+}
