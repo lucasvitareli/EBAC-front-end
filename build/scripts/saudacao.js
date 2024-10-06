@@ -1,0 +1,1 @@
+function saudacao(){var o=(new Date).getHours();o<12?console.log("Bom Dia!"):o<18?console.log("Boa Tarde!"):console.log("Boa Noite!")}
