@@ -1,3 +1,0 @@
-node_modules
-/build/*.css        # Ignorar todos os arquivos .css na pasta build
-!/build/styles.css  # Excetuar o arquivo styles.css
