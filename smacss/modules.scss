@@ -1,0 +1,16 @@
+@use 'variables';
+
+.produto {
+    &-imagem {
+        width: 100%;
+    }
+
+    &-nome {
+        font-size: 1,2em;
+        margin: 8px 0;
+    }
+
+    &-descricao {
+        color: variables.$prod-desc-color;
+    }
+}
